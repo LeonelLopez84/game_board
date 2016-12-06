@@ -1,10 +1,11 @@
 <?php $this->layout('master');
 
-$i=0;
-while ($i < 12) {
-	
-	$this->insert('game/regalos');
+$this->insert('game/header');
 
+$i=1;
+foreach($regalos as $regalo) {
+	$regalo->indice=$i;
+	$this->insert('game/regalos',['regalo'=>$regalo]);
 	++$i;
 }
  

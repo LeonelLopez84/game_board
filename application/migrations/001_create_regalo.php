@@ -26,6 +26,10 @@ class Migration_Create_regalo extends CI_Migration {
                     "type"              =>      "VARCHAR",
                     "constraint"        =>      255,
                 ),
+                "desc"  =>      array(
+                    "type"              =>      "VARCHAR",
+                    "constraint"        =>      255,
+                ),
                 "ganador"  =>      array(
                     "type"              =>      "VARCHAR",
                     "constraint"        =>     255,

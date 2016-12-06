@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Bootstrap Admin Template</title>
+    <title>Rifa Distroller</title>
 
     <!-- Bootstrap Core CSS -->
    <?php
@@ -18,7 +18,9 @@
         echo link_tag('assets/css/rifa.css');
         
 	?>
+    <link href="//fonts.googleapis.com/css?family=Short+Stack" media="screen" rel="stylesheet" type="text/css">
 </head>
+
 
 <body>
 
@@ -29,7 +31,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12">
-                <footer>Rifa Distroller</footer>
+               
             </div>
         </div>
     </div>

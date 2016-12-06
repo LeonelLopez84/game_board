@@ -1,0 +1,185 @@
+
+body{
+	background: #FF9900 url(../img/fondo.png);
+    line-height: 1;
+    font-family: 'Short Stack', sans-serif;
+    font-size: 13px;
+    -webkit-text-size-adjust: none;
+    font-weight: 400;
+    color: #666666;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #999; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4); 
+}
+#header{
+  padding: 0px;
+}
+.jum-b{
+       background: -webkit-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
+    background: -moz-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
+    background: -o-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
+    background: repeating-linear-gradient( 90deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
+    -webkit-background-size: 60px 100%;
+    -moz-background-size: 60px 100%;
+    -o-background-size: 60px 100%;
+    background-size: 60px 100%;
+    background-position: center;
+    border-radius: 0px !important;
+    padding: 0px;
+}
+.jumbotron h1 {
+    color: #FFF;
+    text-shadow: 1px 1px #000, 2px 2px #000;
+}
+
+.item { 
+  width: 85%;
+  height: 50vh;
+  position: relative;
+  perspective: 800px;
+  margin:25px auto;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+#card figure {
+  margin: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color:#fff;
+  display: block;
+  background-color: #FF6699;
+  border: solid 7px #FF6699;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
+}
+
+#card .front {
+  background: red;
+  text-align: center;
+  height: 50vh;
+  line-height: 250px;
+  text-align: center;
+  font-size: 36px;
+}
+#card .front span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 3em;
+}
+
+#card .back {
+  /*background: blue;*/
+  height: 50vh;
+  transform: rotateY( 180deg );
+}
+
+#card.flipped {
+  transform: rotateY( 180deg );
+}
+
+#card { transform-origin: right center; }
+
+#card.flipped {
+  transform: translateX( -100% ) rotateY( -180deg );
+}  
+
+.panel{
+  border-radius: 0px;
+  border:none;
+  background-color: transparent;
+  height: 100%;
+  overflow-y:auto;
+}
+.panel-heading
+{
+  padding: 0px;
+  height:35vh;
+  background-size: cover;
+  background-position: 50% 50%;
+   -webkit-transition:height 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s;
+    
+}
+
+.panel-body{
+	border: none;
+  height:15vh;
+ background-color: #96FF5A;/* #C6FAA8;*/
+  border-radius: 0px;
+  text-align: center;
+}
+
+.panel-body:hover
+{
+  cursor: pointer;
+}
+.panel-haeding-hover
+{
+  height:25vh;
+  
+
+}
+.panel-body .info .title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #262626;
+  vertical-align: middle;
+}
+
+.panel-body .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.panel-footer
+{
+  border: none;
+  background-color:  #96FF5A;
+}
+.panel-footer button,
+ .panel-footer button:hover,
+ .panel-footer button:active,
+  .panel-footer button:focus,
+  .panel-footer button:visited,
+  .panel-footer button:link
+{
+  background-color: #FF0099 !important;
+    color: #FFFFFF !important;
+    text-decoration: none  !important;
+}
+
+

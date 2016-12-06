@@ -1,7 +1,13 @@
-<?php 
+<?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Regalos_model extends CI_Model {
+use Illuminate\Database\Eloquent\Model as Eloquent;
+
+class Regalo_model extends Eloquent {
+
+	protected $table = 'regalo';
+	public $timestamps = false;
+
 
 	public function __construct()
 	{
