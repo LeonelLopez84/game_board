@@ -1,4 +1,4 @@
-<div class="col-xs-6 col-sm-4 col-md-4 col-lg-3">
+<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
 	<section class="item">
 		<div id="card" class="<?php echo (empty($regalo->ganador))?"":"flipped"; ?>">
 			<figure class="front">
@@ -6,16 +6,13 @@
 			</figure>
 			<figure class="back">
 				<div class="panel panel-default">
-				 <div class="panel-heading" style="background-image: url(<?php echo base_url('assets/img/regalos/'.$regalo->id.'.jpg') ?>);">
-					
-				</div>
-				  <div class="panel-body">
+				  <div class="panel-body"  style="background-image: url(<?php echo base_url('assets/img/regalos/'.$regalo->id.'.jpg') ?>);">
 					    
 					   <div class="info">
 					      <div class="title">
 					         <?php echo $regalo->regalo ?>
 					      </div>
-					      <div class="desc"></div>
+					      <div class="desc">Televisión</div>
 					   </div>
 				  </div>
 				  <div class="panel-footer">

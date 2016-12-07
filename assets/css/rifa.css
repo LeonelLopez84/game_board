@@ -53,10 +53,10 @@ body{
 
 .item { 
   width: 85%;
-  height: 50vh;
+  height: 15vh;
   position: relative;
   perspective: 800px;
-  margin:25px auto;
+  margin:7% auto;
 }
 
 #card {
@@ -77,18 +77,19 @@ body{
   color:#fff;
   display: block;
   background-color: #FF6699;
-  border: solid 7px #FF6699;
-  border-radius: 7px;
+  border: solid 5px #FF6699;
+  border-radius: 5px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.75);
 }
 
 #card .front {
   background: red;
   text-align: center;
-  height: 50vh;
-  line-height: 250px;
+  height: 17vh;
+  line-height: 10%;
   text-align: center;
-  font-size: 36px;
+  font-size: 30px;
+  cursor: pointer;
 }
 #card .front span {
   display: inline-block;
@@ -99,7 +100,7 @@ body{
 
 #card .back {
   /*background: blue;*/
-  height: 50vh;
+  height: 17vh;
   transform: rotateY( 180deg );
 }
 
@@ -119,41 +120,45 @@ body{
   background-color: transparent;
   height: 100%;
   overflow-y:auto;
+  overflow-x:hidden;
 }
 .panel-heading
 {
   padding: 0px;
-  height:35vh;
+  height:10vh;
   background-size: cover;
   background-position: 50% 50%;
-   -webkit-transition:height 1s; /* For Safari 3.1 to 6.0 */
-    transition: height 1s;
-    
+  -webkit-transition:height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
 }
 
 .panel-body{
+  width: 100%;
 	border: none;
-  height:15vh;
- background-color: #96FF5A;/* #C6FAA8;*/
+  height:20vh;
+  background-color: #96FF5A;/* #C6FAA8;*/
   border-radius: 0px;
   text-align: center;
-}
-
-.panel-body:hover
-{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-transition:height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
   cursor: pointer;
 }
-.panel-haeding-hover
+.panel-body-hover
 {
-  height:25vh;
-  
-
+  height:8vh;
+}
+.panel-body .info{
+  /* background: rgba(76, 175, 80, 0.1); */
 }
 .panel-body .info .title {
   margin-bottom: 4px;
-  font-size: 24px;
+  font-size: 2em;
   line-height: 1;
-  color: #262626;
+  color: #FFCC00; /* #262626; */
+  text-shadow: #222 2px 2px 2px;
   vertical-align: middle;
 }
 

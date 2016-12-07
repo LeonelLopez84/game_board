@@ -4,10 +4,10 @@ $(document).on('click', '#card', function(event) {
 	$(this).addClass('flipped');
 });
 
-$(document).on('mouseover','.panel-body', function(event) {
+$(document).on('click','.panel-body', function(event) {
 	event.preventDefault();
-	/* Act on the event */
-	$(this).siblings('.panel-heading').addClass('panel-haeding-hover');
+	
+	$(this).addClass('panel-body-hover');
 });
 
 $(document).on('click', "button[name='idregalo[]']", function(event) {
