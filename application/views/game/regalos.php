@@ -6,8 +6,8 @@
 			</figure>
 			<figure class="back">
 				<div class="panel panel-default">
-				  <div class="panel-body"  style="background-image: url(<?php echo base_url('assets/img/regalos/'.$regalo->id.'.jpg') ?>);">
-					    
+				  <div class="panel-body" >
+					     <!-- style="background-image: url(<?php echo base_url('assets/img/regalos/'.$regalo->id.'.jpg') ?>-->
 					   <div class="info">
 					      <div class="title">
 					         <?php echo $regalo->regalo ?>

@@ -34,7 +34,7 @@ body{
   padding: 0px;
 }
 .jum-b{
-       background: -webkit-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
+    background: -webkit-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
     background: -moz-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
     background: -o-repeating-linear-gradient( 0deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
     background: repeating-linear-gradient( 90deg, #CC0099, #CC0099 15px, #FF0099 15px, #FF0099 45px, #CC0099 45px, #CC0099 60px );
@@ -136,7 +136,7 @@ body{
   width: 100%;
 	border: none;
   height:20vh;
-  background-color: #96FF5A;/* #C6FAA8;*/
+  background-color: #ffff00;
   border-radius: 0px;
   text-align: center;
   background-size: cover;
@@ -157,8 +157,9 @@ body{
   margin-bottom: 4px;
   font-size: 2em;
   line-height: 1;
-  color: #FFCC00; /* #262626; */
-  text-shadow: #222 2px 2px 2px;
+  color:#333;
+  font-weight: bolder;
+  /*text-shadow: #333 2px 2px 2px;*/
   vertical-align: middle;
 }
 
@@ -173,7 +174,7 @@ body{
 .panel-footer
 {
   border: none;
-  background-color:  #96FF5A;
+  background-color:#ffff00;
 }
 .panel-footer button,
  .panel-footer button:hover,
